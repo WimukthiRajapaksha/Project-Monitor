@@ -1,0 +1,15 @@
+/* .container-fluid .row .card-user .text-center .row{
+  position: relative;
+  display: inline-block;
+} */
+.container-fluid .row .card-user .text-center .row .right{
+  margin-right: 20px;
+  /* width: 50px auto; */
+  /* background: green; */
+}
+.container-fluid .row .card-user .text-center .row .left{
+  margin-left: 20px;
+}
+.includesHere{
+  margin: 10px;
+}

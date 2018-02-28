@@ -1,0 +1,40 @@
+<div id="particles-js">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <h1 class="navbar-brand">Project Monitor</h1>
+      </div>
+    </div>
+  </nav>
+  <div class="box1" id="particles-js">
+    <div class="innerform">
+      <form accept-charset="UTF-8" role="form" (submit)="onSubmit(email.value, password.value)" name="login" class="formLogin">
+        <fieldset>
+          <div class="form-group">
+            <input class="form-control" placeholder="email" type="text" #email name="email">
+          </div>
+          <div class="form-group">
+            <input class="form-control" placeholder="Password" type="password" value="" #password name="password">
+          </div>
+          <!--<div class="checkbox">-->
+          <!--<label>-->
+          <!--<input name="remember" type="checkbox" value="Remember Me"> Remember Me-->
+          <!--</label>-->
+          <!--</div>-->
+          <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+<!--<div id="particles-js"></div>-->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script type="text/javascript" src="particles.js">
+</script>
+<script type="text/javascript" src="app.js">
+</script>
+<script>
+    particlesJS.load('particles-js', 'particles.json', function () {
+        console.log("done!");
+    });
+</script>

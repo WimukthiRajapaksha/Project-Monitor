@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    height: 100vh;
+    width: 100%;
+    background:#90D4F2;
+    background-size: cover;
+    display: table;
+    margin-top: -25px;
+    background-attachment:fixed;
+    text-align: center;
+}
+.login{
+	position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.innerform{
+    margin-top: 200px;
+    width: 400px;
+
+    margin-left: 400px;
+    margin-right: 100px;
+    /*background: blue;*/
+}
+#particles-js{
+    background: firebrick;
+    height: 700px;
+}
+h1{
+    font-size: 10em;
+    color: green;
+}
