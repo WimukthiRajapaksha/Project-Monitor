@@ -1,0 +1,33 @@
+{
+	"particles":{
+		"number":{
+			"value":1000
+		},
+		"color":{
+			"value":"#fff"
+		},
+		"shape":{
+			"type":"square",
+			"stroke":{
+				"width":4,
+				"color":"#000"
+			}
+		},
+		"opacity":{
+			"value":0.5,
+			"random":true,
+			"anim":{
+				"enable":true,
+				"speed":10
+			}
+		},
+		"size":{
+			"value":5,
+			"random":false,
+			"anim":{
+				"enable":true,
+				"speed":30
+			}
+		}
+	}
+}
